@@ -62,7 +62,7 @@ refletir todo o conhecimento adquirido ao longo das aulas realizadas.
 
 ### Cítala
 #### Definição:
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="350">
 Uma cítala é um sistema de criptografia utilizado pelos éforos espartanos para envio
 de mensagens secretas.
 
