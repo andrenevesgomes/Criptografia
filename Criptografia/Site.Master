@@ -103,9 +103,9 @@
                         <div class="col-md-6 col-lg-3 footer-widget pl-lg-5 pl-3">
                             <h5 class="widget-title">Follow Us</h5>
                             <div class="social">
-                                <a href="https://www.facebook.com/ISTEC" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/istec.lisboa/" class="instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/school/istec/" class="twitter"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/ISTEC" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/istec.lisboa/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/school/istec/" class="twitter" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

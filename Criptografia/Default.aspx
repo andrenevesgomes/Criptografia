@@ -160,36 +160,44 @@
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
                         <h2>60</h2>
-                        <p>Support
+                        <p>
+                            Support
                             <br>
-                            Countries</p>
+                            Countries
+                        </p>
                         <i class="ti-basketball"></i>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
                         <h2>12K</h2>
-                        <p>Transactions 
+                        <p>
+                            Transactions 
                             <br>
-                            per hour</p>
+                            per hour
+                        </p>
                         <i class="ti-panel"></i>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
                         <h2>5B</h2>
-                        <p>Largest
+                        <p>
+                            Largest
                             <br>
-                            Transactions</p>
+                            Transactions
+                        </p>
                         <i class="ti-stats-up"></i>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
                         <h2>240</h2>
-                        <p>Years
+                        <p>
+                            Years
                             <br>
-                            of Experience</p>
+                            of Experience
+                        </p>
                         <i class="ti-user"></i>
                     </div>
                 </div>
@@ -203,8 +211,8 @@
     <section class="team-section spad">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Meet Our Team</h2>
-                <p>Our experts in the field of crypto currency can always help you with any of your questions!</p>
+                <h2>Conhece A Nossa Equipa</h2>
+                <p>Os nossos especialistas no campo da criptografia, design e entrega de cafés!</p>
             </div>
         </div>
         <div class="team-members clearfix">
@@ -212,105 +220,107 @@
             <div class="member">
                 <div class="member-text">
                     <div class="member-img set-bg" data-setbg="img/member/1.jpg"></div>
-                    <h2>André Gomes</h2>
-                    <span>Business Development</span>
+                    <h2>Rúben Santos</h2>
+                    <span>Engenheiro Criativo</span>
                 </div>
                 <div class="member-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.behance.net/rubenpatriciosantos" target="_blank"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/rubenpatriciosantos/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="member-info">
                     <div class="member-img mf set-bg" data-setbg="img/member/1.jpg"></div>
                     <div class="member-meta">
-                        <h2>Tom Binegar</h2>
-                        <span>Marketing Director</span>
+                        <h2>Rúben Santos</h2>
+                        <span>Engenheiro Criativo</span>
                     </div>
-                    <p>Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.</p>
+                    <p>
+                        Trabalho com Modelação & Animação 3D 💻 e Audiovisual. Gosto de trabalhar em equipa e de apoiar os meus colegas.
+                        Sou exigente na minha performance e penso sempre em soluções criativas e eficazes.
+                    </p>
                 </div>
             </div>
             <!-- Team member -->
             <div class="member">
                 <div class="member-text">
                     <div class="member-img set-bg" data-setbg="img/member/2.jpg"></div>
-                    <h2>Jackson Nash</h2>
-                    <span>Business Development</span>
+                    <h2>Gonçalo Batista</h2>
+                    <span>Caçador de Bugs</span>
                 </div>
                 <div class="member-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/gbatista98" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gon%C3%A7alo-batista-287622170/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="member-info">
                     <div class="member-img mf set-bg" data-setbg="img/member/2.jpg"></div>
                     <div class="member-meta">
-                        <h2>Jackson Nash</h2>
-                        <span>Marketing Director</span>
+                        <h2>Gonçalo Batista</h2>
+                        <span>Caçador de Bugs</span>
                     </div>
-                    <p>Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.</p>
+                    <p>I’m a talent programmer, computer and multimedia technician. 
+                        Capable of using C, C#, Java, Java Script, Visual Basic , Asp.net , HTML , XML ,CSS, SQL, MariaDB, Android, FireBase and FireSharp.</p>
                 </div>
             </div>
             <!-- Team member -->
             <div class="member">
                 <div class="member-text">
                     <div class="member-img set-bg" data-setbg="img/member/3.jpg"></div>
-                    <h2>Tom Binegar</h2>
-                    <span>Business Development</span>
+                    <h2>Maurício Oliveira</h2>
+                    <span>AKA DarkBowser</span>
                 </div>
                 <div class="member-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/mauricioalvesoliveira/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="member-info">
                     <div class="member-img mf set-bg" data-setbg="img/member/3.jpg"></div>
                     <div class="member-meta">
-                        <h2>Aaron Ballance</h2>
-                        <span>Ceo Bitcoin</span>
+                        <h2>Maurício Oliveira</h2>
+                        <span>Chefe Supremo</span>
                     </div>
-                    <p>Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.</p>
+                    <p>
+                        Trabalho bem em equipa, Sou Engraçado, Entusiasmado,
+                        Responsável e Organizado, Pretendo Trabalhar em Modelação , Animação 3D ou em Edição de Videos e Som.
+                    </p>
                 </div>
             </div>
             <!-- Team member -->
             <div class="member">
                 <div class="member-text">
                     <div class="member-img set-bg" data-setbg="img/member/4.jpg"></div>
-                    <h2>Melissa Barth</h2>
-                    <span>Product Manager</span>
+                    <h2>André Gomes</h2>
+                    <span>Assistente</span>
                 </div>
                 <div class="member-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/andrenevesgomes" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.behance.net/theandregomes" target="_blank"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/andreneves-gomes/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="member-info">
                     <div class="member-img mf set-bg" data-setbg="img/member/4.jpg"></div>
                     <div class="member-meta">
-                        <h2>Melissa Barth</h2>
-                        <span>Product Manager</span>
+                        <h2>André Gomes</h2>
+                        <span>Assistente</span>
                     </div>
-                    <p>Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.</p>
+                    <p>Entusiasmei-me pela área da tecnologia desde cedo. Esta foi uma das razões pela qual ingressei no Curso de Programação e, mais recentemente, no de Multimédia para aumentar e melhorar as minhas competências.</p>
                 </div>
             </div>
             <!-- Team member -->
             <div class="member">
                 <div class="member-text">
                     <div class="member-img set-bg" data-setbg="img/member/5.jpg"></div>
-                    <h2>Katy Abrams</h2>
-                    <span>Head of Design</span>
+                    <h2>DarkBowser</h2>
+                    <span>Headmaster</span>
                 </div>
                 <div class="member-social">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fas fa-times"></i></a>
+                    <a href="" target="_blank"><i class="fas fa-times"></i></a>
                 </div>
                 <div class="member-info">
                     <div class="member-img mf set-bg" data-setbg="img/member/5.jpg"></div>
                     <div class="member-meta">
-                        <h2>Katy Abrams</h2>
-                        <span>Head of Design</span>
+                        <h2>DarkBowser</h2>
+                        <span>Headmaster</span>
                     </div>
-                    <p>Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.</p>
+                    <p>There's nothing to see here... move along... ☠</p>
                 </div>
             </div>
         </div>
