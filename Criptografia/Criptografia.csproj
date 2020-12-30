@@ -352,6 +352,7 @@
     <Content Include="webfonts\themify.woff" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\Encriptar.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>

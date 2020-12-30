@@ -30,9 +30,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-6 about-text">
-                    <h2>What is Bitcoin</h2>
-                    <h5>Bitcoin is an innovative payment network and a new kind of money.</h5>
-                    <p>Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone can send or receive any amount of money with anyone else, anywhere on the planet, conveniently and without restriction. It’s the dawn of a better, more free world.</p>
+                    <h2>O que é a Cítala Espartana?</h2>
+                    <h5>Uma cítala é um sistema de criptografia utilizado pelos éforos espartanos para envio de mensagens secretas.</h5>
+                    <p>
+                        O sistema consistia em duas varas da mesma espessura que estavam cada uma na posse de um dos participantes na comunicação. 
+                        Para enviar uma mensagem era enrolada uma tira de forma espiral a um dos bastões e era escrita a mensagem longitudinalmente, 
+                        de forma que em cada volta da tira aparecesse uma letra de cada vez. Uma vez escrita a mensagem, a tira era desenrolada e era enviada ao recetor, 
+                        que só tinha que a enrolar no bastão gémeo para ler a mensagem original.
+                    </p>
                     <a href="" class="site-btn sb-gradients sbg-line mt-5">Get Started</a>
                 </div>
             </div>
@@ -256,8 +261,10 @@
                         <h2>Gonçalo Batista</h2>
                         <span>Caçador de Bugs</span>
                     </div>
-                    <p>I’m a talent programmer, computer and multimedia technician. 
-                        Capable of using C, C#, Java, Java Script, Visual Basic , Asp.net , HTML , XML ,CSS, SQL, MariaDB, Android, FireBase and FireSharp.</p>
+                    <p>
+                        I’m a talent programmer, computer and multimedia technician. 
+                        Capable of using C, C#, Java, Java Script, Visual Basic , Asp.net , HTML , XML ,CSS, SQL, MariaDB, Android, FireBase and FireSharp.
+                    </p>
                 </div>
             </div>
             <!-- Team member -->
@@ -402,60 +409,33 @@
     <section class="blog-section spad">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Latest News</h2>
-                <p>Bitcoin is the simplest way to exchange money at very low cost.</p>
+                <h2>Experimenta a Cítala Espartana</h2>
+                <p>Uma cítala é um sistema de criptografia utilizado pelos éforos espartanos para envio de mensagens secretas.</p>
             </div>
             <div class="row">
                 <!-- blog item -->
-                <div class="col-md-4">
-                    <div class="blog-item">
-                        <figure class="blog-thumb">
-                            <img src="img/blog/1.jpg" alt="">
-                        </figure>
-                        <div class="blog-text">
-                            <div class="post-date">03 jan 2018</div>
-                            <h4 class="blog-title"><a href="">Coinbase to Reopen the GDAX Bitcoin Cash-Euro Order Book</a></h4>
-                            <div class="post-meta">
-                                <a href=""><span>by</span> Admin</a>
-                                <a href=""><i class="fa fa-heart-o"></i>234 Likes</a>
-                                <a href=""><i class="fa fa-comments-o"></i>08 comments</a>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="hero-subscribe-from">
+                        <asp:TextBox ID="txtEncriptar" CssClass="w-100 text-center" placeholder="Texto a Encriptar" runat="server"></asp:TextBox>
                     </div>
                 </div>
                 <!-- blog item -->
-                <div class="col-md-4">
-                    <div class="blog-item">
-                        <figure class="blog-thumb">
-                            <img src="img/blog/2.jpg" alt="">
-                        </figure>
-                        <div class="blog-text">
-                            <div class="post-date">28 dec 2018</div>
-                            <h4 class="blog-title"><a href="">Blockchain Rolls Out Trading Feature for 22 States in the U.S</a></h4>
-                            <div class="post-meta">
-                                <a href=""><span>by</span> Admin</a>
-                                <a href=""><i class="fa fa-heart-o"></i>234 Likes</a>
-                                <a href=""><i class="fa fa-comments-o"></i>08 comments</a>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="hero-subscribe-from">
+                        <asp:UpdatePanel ID="UpdatePanel" runat="server">
+                            <ContentTemplate>
+                                <asp:TextBox ID="txtDesencriptar" CssClass="w-100 text-center" Enabled="False" placeholder="Texto a Encriptado" runat="server"></asp:TextBox>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
                     </div>
                 </div>
-                <!-- blog item -->
-                <div class="col-md-4">
-                    <div class="blog-item">
-                        <figure class="blog-thumb">
-                            <img src="img/blog/3.jpg" alt="">
-                        </figure>
-                        <div class="blog-text">
-                            <div class="post-date">28 aug 2018</div>
-                            <h4 class="blog-title"><a href="">This Week in Bitcoin: Up, Down and Sideways</a></h4>
-                            <div class="post-meta">
-                                <a href=""><span>by</span> Admin</a>
-                                <a href=""><i class="fa fa-heart-o"></i>234 Likes</a>
-                                <a href=""><i class="fa fa-comments-o"></i>08 comments</a>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <asp:Button ID="btnEncriptar" CssClass="site-btn sb-gradients w-50 mx-auto" runat="server" Text="Encriptar" OnClick="btnEncriptar_OnClick" />
+                </div>
+                <div class="col-md-6">
+                    <asp:Button ID="btnDesencriptar" CssClass="site-btn sb-gradients w-50 mx-auto" runat="server" Text="Desencriptar" OnClick="btnDesencriptar_OnClick" />
                 </div>
             </div>
         </div>
