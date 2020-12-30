@@ -19,7 +19,7 @@
   <h3 align="center">Criptografia</h3>
 
   <p align="center">
-    Criação do algoritmo para a cifra <strong>Scitala Espartana</strong>.
+    Criação do algoritmo para a cifra <strong>Cítala Espartana</strong>.
     <br />
     <br />
     <a href="https://github.com/andrenevesgomes/Criptografia" target=“_blank”><strong>Explorar os docs »</strong></a>
@@ -38,7 +38,6 @@
 
 * [Sobre o Projeto](#sobre-o-projeto)
   * [Desenvolvimento](#desenvolvimento)
-  * [Cítala](#cítala)
   * [Pseudo-Código](#pseudo-código)
   * [Algoritmo em funcionamento](#algoritmo-em-funcionamento)
   * [Bibliotecas Usadas](#bibliotecas-usadas)
@@ -58,15 +57,14 @@ No âmbito da disciplina de Criptografia foi-nos requisitado a realização de u
 trabalho de grupo centrado na realização de um algoritmo de encriptação de forma a
 refletir todo o conhecimento adquirido ao longo das aulas realizadas.
 
-## Desenvolvimento
+# Desenvolvimento
 
-### Cítala
-#### Definição:
+## Definição:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="350">
 Uma cítala é um sistema de criptografia utilizado pelos éforos espartanos para envio
 de mensagens secretas.
 
-#### Funcionamento:
+## Funcionamento:
 O sistema consistia em duas varas da mesma espessura que estavam cada uma na
 posse de um dos participantes na comunicação. Para enviar uma mensagem era
 enrolada uma tira de forma espiral a um dos bastões e era escrita a mensagem
@@ -74,48 +72,99 @@ longitudinalmente, de forma que em cada volta da tira aparecesse uma letra de ca
 vez. Uma vez escrita a mensagem, a tira era desenrolada e era enviada ao recetor,
 que só tinha que a enrolar no bastão gémeo para ler a mensagem original.
 
-#### Utilização:
+## Utilização:
 Os gregos antigos, e em particular os espartanos, utilizaram este sistema de cifra de
 transposição para comunicar nas campanhas militares.
 
+## O Algorítmo:
+Quando se trata de encriptar uma mensagem com este mecânismo, podemos pensar na cítala como uma matriz retangular da qual conhecemos uma de suas medidas, por exemplo, o comprimento dado ao número de voltas que a fita dá à haste. Para simplificar, iremos denominar este parâmetro por L.
 
-## Pseudo-Código (Colocar o Nosso)
+Com base no parâmetro L, geramos uma matriz de dimensão N x L, onde N é derivado de L e do comprimento da mensagem. Prosseguimos para preencher a matriz longitudinalmente, saltando para uma nova linha à medida que a anterior é concluída, até termos terminado a mensagem. Em seguida, procedemos à transposição da matriz e recuperamos o texto longitudinalmente, mantendo os espaços, se houver.
+
+Por exemplo, dado o texto `WE ARE UNDER ATTACK` e um comprimento de 4, a matriz inicial seria a seguinte:
+
 ```
-for i=8 até 2 i--
-se comprimento a dividir por i for maior que i
-break
-se i = 8
-se comp.mod(i-1) menor que comp.mod(i) então
-linha = i - 1
-senão
-linhas = i
-senão se i = 3
-linhas = i
-senão se i = 2
-linhas = i + 1
-senao
-linha = mínimo(comp.mod4 e comp.mod5 e comp.mod5)
-k = 0
-for i - 1 até linhas
-for j = 1 até comp.palavras a dividir por linhas
-matriz [j] [i] <- texto [k++]
+| W | E |   | A |
+| R | E |   | U |
+| N | D | E | R |
+| A | T | T | A |
+| C | K |   |   |
 ```
-Para desencriptar repete-se o processo mas trocam-se os `for`
+
+Depois de transposta, iria ficar da seguinte forma:  
+
+```
+| W | E | E | T | E |
+|   | R | A |   | U |
+|   | C | A | N | A |
+| K | R | D | T |   |
+```
+
+Portanto, nossa mensagem encriptada seria `WEETE RA U CANAKRDT`.
+
+Para decifrar a mensagem, o processo seria o mesmo, mas ao contrário: partimos de uma matriz de dimensões `L x N`, seguindo a mesma lógica em que `N` é calculado com base no parâmetro `L` e no comprimento do mensagem.
+
+Seguindo a mesma metodologia, a matriz é preenchida, transposta e o texto recuperado longitudinalmente, respeitando os espaços.
+
+# Pseudo-Código
+```
+/// <summary>
+/// Esta função irá permitir a encriptação de uma frase que o user insira.
+/// </summary>
+/// <param name="plainText">Texto que o user irá inserir na textbox</param>
+/// <param name="numOfRows">Comprimento dado ao número de voltas que a fita dá na haste</param>
+/// <returns>Irá retornar o texto encriptado</returns>
+
+public static string ScytaleEncode(string plainText, int numOfRows) {
+  string encodedText = "";
+  if (numOfRows >= plainText.Length || numOfRows <= 0) {
+    return plainText;
+  } else {
+    while (plainText.Length % numOfRows != 0) {
+      plainText += " ";
+    }
+
+    int numOfCols = plainText.Length / numOfRows;
+    for (int i = 0; i < numOfCols; i++) {
+      for (int y = i; y < plainText.Length; y += numOfCols) {
+        encodedText += plainText[y];
+      }
+    }
+  }
+  return encodedText;
+}
+
+/// <summary>
+/// Esta função irá permitir a desencriptação de uma frase que o user insira.
+/// </summary>
+/// <param name="encodedString">Texto que o user irá inserir na textbox</param>
+/// <param name="numOfRows">Comprimento dado ao número de voltas que a fita dá na haste</param>
+/// <returns>Irá retornar o texto desencriptado</returns>
+
+public static string ScytaleDecode(string encodedString, int numOfRows) {
+  string decodedString = " ";
+  int numOfCols = encodedString.Length / numOfRows;
+  decodedString = ScytaleEncode(encodedString, numOfCols);
+  return decodedString;
+}
+```
 
 
-## Algoritmo em funcionamento (Colocar Foto Do Projecto)
-![Página Login Gestao Voluntariado](https://user-images.githubusercontent.com/48434290/96355140-4749d980-10d6-11eb-99f2-66c228add052.png)
+# Algoritmo em funcionamento
+![Experimentar a Cítala](https://user-images.githubusercontent.com/48434290/103378842-9dc29380-4adb-11eb-867d-fa2ca56de1e3.png)
 
 
-## Bibliotecas Usadas
+# Bibliotecas Usadas
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
-* [Pretty checkbox](https://lokesh-coder.github.io/pretty-checkbox/)
 * [Popper.js](https://popper.js.org/)
+* [Themify Icons](https://themify.me/themify-icons)
 * [Font Awesome](https://fontawesome.com)
+* [Animate.css](https://animate.style/)
+* [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
 
 
-## Conclusão
+# Conclusão
 Com este trabalho ficámos a conhecer a cifra Scitala Espartana. Para este exercício,
 conhecimentos de programação não eram suficientes, foi necessário entender a cifra
 para que fosse possível “traduzi-la” para uma linguagem de programação. Foi
