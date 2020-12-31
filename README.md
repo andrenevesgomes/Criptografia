@@ -38,6 +38,10 @@
 
 * [Sobre o Projeto](#sobre-o-projeto)
   * [Desenvolvimento](#desenvolvimento)
+    - [Definição](#definição)
+    - [Funcionamento](#funcionamento)
+    - [Utilização](#utilização)
+    - [O Algorítmo](#o-algorítmo)
   * [Pseudo-Código](#pseudo-código)
   * [Algoritmo em funcionamento](#algoritmo-em-funcionamento)
   * [Bibliotecas Usadas](#bibliotecas-usadas)
