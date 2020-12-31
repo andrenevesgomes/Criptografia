@@ -51,7 +51,7 @@
 <!-- SOBRE O PROJETO -->
 # Sobre o Projeto
 
-![Página Login Gestao Voluntariado](https://user-images.githubusercontent.com/48434290/96355140-4749d980-10d6-11eb-99f2-66c228add052.png)
+![HomePage](https://user-images.githubusercontent.com/48434290/103387914-4e418f00-4afe-11eb-864c-aee90f26b695.png)
 
 No âmbito da disciplina de Criptografia foi-nos requisitado a realização de um
 trabalho de grupo centrado na realização de um algoritmo de encriptação de forma a
