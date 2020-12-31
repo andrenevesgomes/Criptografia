@@ -19,13 +19,17 @@ namespace Criptografia
         {
             string encoded = Encriptar.ScytaleEncode(txtEncriptar.Text, 4);
 
-            txtDesencriptar.Text = encoded;
+            txtEncriptar.Text = "";
+            txtDesencriptar.Text = encoded; //para limpar a texbox e assim o user conseguir perceber que está a acontecer algo
         }
 
         protected void btnDesencriptar_OnClick(object sender, EventArgs e)
         {
             string decoded = Encriptar.ScytaleDecode(txtDesencriptar.Text, 4);
+
+            txtDesencriptar.Text = ""; //para limpar a texbox e assim o user conseguir perceber que está a acontecer algo
             txtEncriptar.Text = decoded;
+
 
         }
     }

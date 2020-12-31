@@ -380,13 +380,17 @@ ol {
         font-size: 22px;
     }
 
+        .hero-text h4 span {
+            color: #16d0c5;
+        }
+
 .hero-subscribe-from {
     margin-top: 50px;
     display: block;
 }
 
     .hero-subscribe-from input {
-        width: 315px;
+        /*width: 315px;*/
         border: 1px solid #ebebeb;
         background: #fff;
         height: 48px;

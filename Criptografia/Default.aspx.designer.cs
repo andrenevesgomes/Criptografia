@@ -24,13 +24,13 @@ namespace Criptografia
         protected global::System.Web.UI.WebControls.TextBox txtEncriptar;
 
         /// <summary>
-        /// UpdatePanel control.
+        /// btnEncriptar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel;
+        protected global::System.Web.UI.WebControls.Button btnEncriptar;
 
         /// <summary>
         /// txtDesencriptar control.
@@ -40,15 +40,6 @@ namespace Criptografia
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDesencriptar;
-
-        /// <summary>
-        /// btnEncriptar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEncriptar;
 
         /// <summary>
         /// btnDesencriptar control.
