@@ -41,13 +41,14 @@
         <header class="header-section clearfix">
             <div class="container-fluid">
                 <a href="Default.aspx" class="">
+                    <%-- ReSharper disable once Asp.Image --%>
                     <img src="img/logo.png" alt="Logo" width="200">
                 </a>
                 <div class="responsive-bar"><i class="fa fa-bars"></i></div>
                 <nav class="main-menu">
                     <ul class="menu-list">
                         <li><a href="#Sobre">O que é?</a></li>
-                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Features">Características</a></li>
                         <li><a href="#">News</a></li>
                         <li><a href="#Team">A Equipa</a></li>
                         <li><a href="#TryCrypt">Experimentar</a></li>
@@ -64,12 +65,12 @@
                 </ContentTemplate>
             </asp:UpdatePanel>
             <!-- Footer section -->
-            <footer class="footer-section">
+            <footer class="">
                 <div class="container">
                     <div class="row spad">
                         <div class="col-md-6 col-lg-3 footer-widget">
                             <img src="img/logo.png" class="mb-4" alt="">
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.</p>
+                            <p>No âmbito da disciplina de <b>Criptografia</b>  foi-nos requisitado a realização de um trabalho de grupo</p>
                             <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                                 All rights reserved | Este website foi desenvolvido com muito <i class="fas fa-heart text-danger" aria-hidden="true"></i>&nbsp;pelos alunos
                                 <a href="https://www.linkedin.com/in/rubenpatriciosantos/" target="_blank">Rúben Santos</a>
@@ -81,27 +82,27 @@
                             </span>
                         </div>
                         <div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
-                            <h5 class="widget-title">Resources</h5>
+                            <h5 class="widget-title">Links Úteis</h5>
                             <ul>
-                                <li><a href="#">How to Buy Coin</a></li>
-                                <li><a href="#">Coin Overview</a></li>
-                                <li><a href="#">Blog News</a></li>
-                                <li><a href="#">How to Sell Coin</a></li>
-                                <li><a href="#">Purchase Theme</a></li>
+                                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Scytale">Wiki</a></li>
+                                <li><a target="_blank" href="https://www.tandfonline.com/doi/abs/10.1080/0161-119891886902">The Myth of the Skytale". Cryptologia. Taylor & Francis</a></li>
+                                <li><a target="_blank" href="http://bcs.fltr.ucl.ac.be/FE/07/CRYPT/Intro.html">Les langages secrets dans l'Antiquité gréco-romaine</a></li>
+                                <li><a target="_blank" href="https://www.press.umich.edu/pdf/0472110640.pdf">Information Gathering in Classical Greece</a></li>
+                                <li><a target="_blank" href="https://repositorio.ul.pt/bitstream/10451/3647/1/ulfc055857_tm_Victor_Fiarresga.pdf">Criptografia e Matemática</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
-                            <h5 class="widget-title">Quick Links</h5>
+                            <h5 class="widget-title">Links Rápidos</h5>
                             <ul>
-                                <li><a href="#">Network Stats</a></li>
-                                <li><a href="#">Block Explorers</a></li>
-                                <li><a href="#">Governance</a></li>
-                                <li><a href="#">Exchange Markets</a></li>
-                                <li><a href="#">Get Theme</a></li>
+                                <li><a href="#TryCrypt">Experimentar A Cítala</a></li>
+                                <li><a href="#Team">A Equipa</a></li>
+                                <li><a href="#Sobre">Sobre</a></li>
+                                <li><a href="#Features">Características</a></li>
+                                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Scytale">Mais Info</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-lg-3 footer-widget pl-lg-5 pl-3">
-                            <h5 class="widget-title">Follow Us</h5>
+                        <div class="col-md-6 col-lg-3 footer-widget ps-lg-5 ps-3">
+                            <h5 class="widget-title">Segue-nos</h5>
                             <div class="social">
                                 <a href="https://www.facebook.com/ISTEC" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.instagram.com/istec.lisboa/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -111,19 +112,13 @@
                     </div>
                     <div class="footer-bottom">
                         <div class="row">
-                            <div class="col-lg-4 store-links text-center text-lg-left pb-3 pb-lg-0">
-                                <a href="">
-                                    <img src="img/appstore.png" alt="" class="mr-2"></a>
-                                <a href="">
-                                    <img src="img/playstore.png" alt=""></a>
-                            </div>
-                            <div class="col-lg-8 text-center text-lg-right">
+                            <div class="col-lg-12 text-center text-lg-end">
                                 <ul class="footer-nav">
-                                    <li><a href="">DPA</a></li>
-                                    <li><a href="">Terms of Use</a></li>
-                                    <li><a href="">Privacy Policy </a></li>
-                                    <li><a href="">support@company.com</a></li>
-                                    <li><a href="">(123) 456-7890</a></li>
+                                    <li><a href="">RGPA</a></li>
+                                    <li><a href="">Termos de Uso</a></li>
+                                    <li><a href="">Política de Privacidade </a></li>
+                                    <li><a href="">apoio@citalaespartana.com</a></li>
+                                    <li><a href="">(+351) 211 143 567</a></li>
                                 </ul>
                             </div>
                         </div>

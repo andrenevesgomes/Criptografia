@@ -57,62 +57,35 @@
     <section id="Features" class="features-section spad gradient-bg">
         <div class="container text-white">
             <div class="section-title text-center">
-                <h2>Our Features</h2>
-                <p>Bitcoin is the simplest way to exchange money at very low cost.</p>
+                <h2>Características</h2>
+                <p>A cítala espartana é o método mais simples (e seguro) de encriptar uma mensagem</p>
             </div>
             <div class="row">
                 <!-- feature -->
                 <div class="col-md-6 col-lg-4 feature">
-                    <i class="ti-mobile"></i>
+                    <i class="ti-timer"></i>
                     <div class="feature-content">
-                        <h4>Mobile Apps</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
+                        <h4>Rápido</h4>
+                        <p>Este método de encriptação é um dos mais rápidos</p>
+                        <a href="" class="readmore">Ler +</a>
                     </div>
                 </div>
                 <!-- feature -->
                 <div class="col-md-6 col-lg-4 feature">
                     <i class="ti-shield"></i>
                     <div class="feature-content">
-                        <h4>Safe & Secure</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
-                    </div>
-                </div>
-                <!-- feature -->
-                <div class="col-md-6 col-lg-4 feature">
-                    <i class="ti-wallet"></i>
-                    <div class="feature-content">
-                        <h4>Wallet</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
-                    </div>
-                </div>
-                <!-- feature -->
-                <div class="col-md-6 col-lg-4 feature">
-                    <i class="ti-headphone-alt"></i>
-                    <div class="feature-content">
-                        <h4>Experts Support</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
+                        <h4>Seguro</h4>
+                        <p>A cítala é um dos primeiros métodos de encriptação criados pelo Homem, tendo ja provas dadas da sua segurança. </p>
+                        <a href="" class="readmore">Ler +</a>
                     </div>
                 </div>
                 <!-- feature -->
                 <div class="col-md-6 col-lg-4 feature">
                     <i class="ti-reload"></i>
                     <div class="feature-content">
-                        <h4>Instant Exchange</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
-                    </div>
-                </div>
-                <!-- feature -->
-                <div class="col-md-6 col-lg-4 feature">
-                    <i class="ti-panel"></i>
-                    <div class="feature-content">
-                        <h4>Recuring Buys</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <a href="" class="readmore">Readmore</a>
+                        <h4>Adaptável</h4>
+                        <p>Na cítala espartana podemos tornar a desencriptação mais difícil ao aumentarmos o numero de voltas em torno do bastão</p>
+                        <a href="" class="readmore">Ler +</a>
                     </div>
                 </div>
             </div>
@@ -122,38 +95,39 @@
 
 
     <!-- Process section -->
-    <section class="process-section spad">
+    <section class="spad">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Get Started With Bitcoin</h2>
-                <p>Start learning about Bitcoin with interactive tutorials. It’s fun, easy, and takes only a few minutes! </p>
+                <h2 class="text-capitalize">Então mas, como é que é feita a encriptação?</h2>
+                <p>Isso é muito fácil! Basta veres os desenho que fizemos para ti 😁</p>
             </div>
             <div class="row">
                 <div class="col-md-4 process">
                     <div class="process-step">
                         <figure class="process-icon">
-                            <img src="img/process-icons/1.png" alt="#">
+                            <i class="far fa-file-alt fa-3x"></i>
                         </figure>
-                        <h4>Create Your Wallet</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <h4>Colocas A Frase</h4>
+                        <p>Irás inserir a frase que pretendes encriptar numa caixa de texto que te será disponibilizada. </p>
                     </div>
                 </div>
                 <div class="col-md-4 process">
                     <div class="process-step">
                         <figure class="process-icon">
-                            <img src="img/process-icons/2.png" alt="#">
+                            <i class="fas fa-user-secret fa-3x"></i>
                         </figure>
-                        <h4>Create Your Wallet</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <h4>Super-Agente</h4>
+                        <p>Depois de clicares no botão "<b>Encriptar</b>" um dos nossos super-agentes irá encriptar a mensagem. Isto sem nunca 
+                            saber qual é o conteúdo da mesma, é claro 😜</p>
                     </div>
                 </div>
                 <div class="col-md-4 process">
                     <div class="process-step">
                         <figure class="process-icon">
-                            <img src="img/process-icons/3.png" alt="#">
+                            <i class="fas fa-font fa-3x"></i>
                         </figure>
-                        <h4>Create Your Wallet</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <h4>A Magia Acontece</h4>
+                        <p>Numa segunda caixa de texto, irá aparecer a tua mensagem encriptada.</p>
                     </div>
                 </div>
             </div>
@@ -168,33 +142,33 @@
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
-                        <h2>60</h2>
+                        <h2>220M</h2>
                         <p>
-                            Support
+                            Visitas
                             <br>
-                            Countries
+                            totais
                         </p>
-                        <i class="ti-basketball"></i>
+                        <i class="ti-world"></i>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
                         <h2>12K</h2>
                         <p>
-                            Transactions 
+                            Encriptações
                             <br>
-                            per hour
+                            por hora
                         </p>
                         <i class="ti-panel"></i>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="fact">
-                        <h2>5B</h2>
+                        <h2>20</h2>
                         <p>
-                            Largest
+                            Valores
                             <br>
-                            Transactions
+                            Nota Final*
                         </p>
                         <i class="ti-stats-up"></i>
                     </div>
@@ -203,9 +177,9 @@
                     <div class="fact">
                         <h2>240</h2>
                         <p>
-                            Years
+                            Super
                             <br>
-                            of Experience
+                            Agentes
                         </p>
                         <i class="ti-user"></i>
                     </div>
@@ -350,10 +324,10 @@
                             <p>"A cítala espartana consistia em enrolar uma fita de tecido num bastão de madeira de dada largura. A frase que deveria ser cifrada, era escrita na fita no comprimento do bastão, denserolada e enviada disfarçada (como um cinto por exemplo) e ao chegar ao destino deveria ser enrolada num bastão da mesma largura para que a mensagem fosse decifrada”</p>
                         </div>
                         <div class="review-text">
-                            <p>Tcharan</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ut magna vel volutpat. Nulla a dui quis lorem vehicula pharetra. Proin consequat vitae justo quis aliquam. Duis pretium elementum odio, eget fringilla dolor viverra sed. Pellentesque vitae dolor eget quam.</p>
                         </div>
                         <div class="review-text">
-                            <p>"Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”</p>
+                            <p>Vestibulum in diam lectus. Nam eleifend efficitur velit, et cursus mi condimentum quis. Ut aliquet semper dui, id eleifend nulla lobortis sit amet. Vivamus pharetra id felis id posuere. Curabitur viverra nunc vel ligula fringilla, non sagittis magna tristique. </p>
                         </div>
 
                     </div>
@@ -363,8 +337,8 @@
                         <div class="author-meta">
                             <div class="author-avatar set-bg" data-setbg="img/review/1.jpg"></div>
                             <div class="author-name">
-                                <h4>Aaron Ballance</h4>
-                                <p>Ceo Bitcoin</p>
+                                <h4>Carlos de Sá</h4>
+                                <p>Matemático</p>
                             </div>
                         </div>
                         <div class="author-meta">
@@ -377,8 +351,8 @@
                         <div class="author-meta">
                             <div class="author-avatar set-bg" data-setbg="img/review/2.jpg"></div>
                             <div class="author-name">
-                                <h4>Jackson Nash</h4>
-                                <p>Head of Design</p>
+                                <h4>João Ferreira</h4>
+                                <p>Estudante</p>
                             </div>
                         </div>
 
@@ -395,13 +369,13 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-lg-7 newsletter-text">
-                    <h2>Subscribe to our Newsletter</h2>
-                    <p>Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
+                    <h2>Subscreve a nossa Newsletter</h2>
+                    <p>Inscreve-te para receberes todas as novidades relacionadas com a cítala.</p>
                 </div>
                 <div class="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
                     <div class="newsletter-form">
-                        <input type="text" placeholder="Enter your email">
-                        <button>Get Started</button>
+                        <input type="text" placeholder="Insere um email...">
+                        <button>Inscrever-me</button>
                     </div>
                 </div>
             </div>

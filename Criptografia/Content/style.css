@@ -70,10 +70,13 @@ img {
     max-width: 100%;
 }
 
-input:focus,
-select:focus,
-button:focus,
-textarea:focus {
+figure i {
+    background: -webkit-linear-gradient(200deg, rgb(61, 40, 207), rgb(116, 211, 184)) 0% 0% / 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input: focus, select:focus, button:focus, textarea:focus {
     outline: none;
 }
 
