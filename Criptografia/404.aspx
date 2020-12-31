@@ -157,9 +157,9 @@
             <div id="main-content">
                 <h1>Oopá! Houve aqui um erro!</h1>
 
-                <p>
+                <p class="text-start">
                     Infelizmente, a página que estavas à procura não foi encontrada. Pode ter sido 
-                    temporariamente movida, ido férias ou jà não existe mais.
+                    temporariamente movida, ido de férias ou jà não existe.
                 </p>
                 <div id="navigation">
                     <a class="site-btn" href="Default.aspx">Página Inicial</a>
