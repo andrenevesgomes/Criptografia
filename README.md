@@ -7,7 +7,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fcriptografia.azurewebsites.net%2F)  ![GitHub Release Date](https://img.shields.io/github/release-date/andrenevesgomes/Criptografia?style=for-the-badge)
 
 <!-- PROJECT LOGO -->
 <br/>
