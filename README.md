@@ -81,11 +81,11 @@ Os gregos antigos, e em particular os espartanos, utilizaram este sistema de cif
 transposição para comunicar nas campanhas militares.
 
 ## O Algorítmo:
-Quando se trata de encriptar uma mensagem com este mecânismo, podemos pensar na cítala como uma matriz retangular da qual conhecemos uma de suas medidas, por exemplo, o comprimento dado ao número de voltas que a fita dá à haste. Para simplificar, iremos denominar este parâmetro por L.
+Quando se trata de encriptar uma mensagem com este mecânismo, podemos pensar na cítala como uma matriz retangular da qual conhecemos uma das suas medidas, por exemplo, o comprimento dado ao número de voltas que a fita dá à haste. Para simplificar, iremos denominar este parâmetro por L.
 
-Com base no parâmetro L, geramos uma matriz de dimensão N x L, onde N é derivado de L e do comprimento da mensagem. Prosseguimos para preencher a matriz longitudinalmente, saltando para uma nova linha à medida que a anterior é concluída, até termos terminado a mensagem. Em seguida, procedemos à transposição da matriz e recuperamos o texto longitudinalmente, mantendo os espaços, se houver.
+Com base no parâmetro L, iremos gerar uma matriz com a dimensão `N x L`, onde `N` é derivado de `L` e do comprimento da mensagem. Prosseguimos para preencher a matriz longitudinalmente, saltando para uma nova linha à medida que a anterior é concluída, até termos terminado a mensagem. Em seguida, procedemos à transposição da matriz e recuperamos o texto longitudinalmente, mantendo os espaços, se houver.
 
-Por exemplo, dado o texto `WE ARE UNDER ATTACK` e um comprimento de 4, a matriz inicial seria a seguinte:
+Por exemplo, dado o texto `WE ARE UNDER ATTACK` e um comprimento de `4`, a matriz inicial seria a seguinte:
 
 ```
 | W | E |   | A |
@@ -98,10 +98,11 @@ Por exemplo, dado o texto `WE ARE UNDER ATTACK` e um comprimento de 4, a matriz 
 Depois de transposta, iria ficar da seguinte forma:  
 
 ```
-| W | E | E | T | E |
-|   | R | A |   | U |
-|   | C | A | N | A |
-| K | R | D | T |   |
+| W | E | E | T |
+| E |   | R | A |
+|   | U |   | C |
+| A | N | A | K |
+| R | D | T |   |
 ```
 
 Portanto, nossa mensagem encriptada seria `WEETE RA U CANAKRDT`.
