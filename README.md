@@ -25,7 +25,7 @@
     <a href="https://github.com/andrenevesgomes/Criptografia" target=“_blank”><strong>Explorar os docs »</strong></a>
     <br />
     <br />
-    <a href="#" target=“_blank”>Ver Demo</a>
+    <a href="https://criptografia.azurewebsites.net/" target=“_blank”>Ver Demo</a>
     ·
     <a href="https://github.com/andrenevesgomes/Criptografia/issues" target=“_blank”>Reportar Bug</a>
   </p>
