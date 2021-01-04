@@ -396,14 +396,16 @@
                 <!-- Encrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
-                        <asp:TextBox ID="txtEncriptar" CssClass="w-100 text-center" placeholder="Texto a Encriptar" runat="server"></asp:TextBox>
-                        <asp:Button ID="btnEncriptar" CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" runat="server" Text="Encriptar" OnClick="btnEncriptar_OnClick" />
+                        <asp:TextBox ID="txtEncriptar" CssClass="col-7 text-center" placeholder="Texto a Encriptar" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNrVoltasEnc" CssClass="col-4 px-4 text-center" TextMode="Number" placeholder="Número de Voltas" runat="server"></asp:TextBox>
+                        <asp:Button ID="btnEncriptar" ToolTip="Encriptar Frase" CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" runat="server" Text="Encriptar" OnClick="btnEncriptar_OnClick" />
                     </div>
                 </div>
                 <!-- Decrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
                         <asp:TextBox ID="txtDesencriptar" CssClass="w-100 text-center" Enabled="False" placeholder="Texto a Encriptado" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNrVoltasDecr" Visible="False" CssClass="col-4 px-4 text-center" TextMode="Number" placeholder="Número de Voltas" runat="server"></asp:TextBox>
                         <asp:Button ID="btnDesencriptar" CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" runat="server" Text="Desencriptar" OnClick="btnDesencriptar_OnClick" />
                     </div>
                 </div>

@@ -13,7 +13,11 @@
 
 @font-face {
     font-family: 'Futura';
-    src: url("../fonts/Futura.woff");
+    src: url("../webfonts/Futura.woff");
+}
+
+*:focus {
+    outline: none !important;
 }
 
 html,

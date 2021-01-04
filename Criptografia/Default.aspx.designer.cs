@@ -24,6 +24,15 @@ namespace Criptografia
         protected global::System.Web.UI.WebControls.TextBox txtEncriptar;
 
         /// <summary>
+        /// txtNrVoltasEnc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNrVoltasEnc;
+
+        /// <summary>
         /// btnEncriptar control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Criptografia
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDesencriptar;
+
+        /// <summary>
+        /// txtNrVoltasDecr control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNrVoltasDecr;
 
         /// <summary>
         /// btnDesencriptar control.
