@@ -157,6 +157,11 @@
     <Content Include="Img\hero-bg.png" />
     <Content Include="Img\laptop.png" />
     <Content Include="Img\logo.png" />
+    <Content Include="Img\logo\android-chrome-192x192.png" />
+    <Content Include="Img\logo\android-chrome-512x512.png" />
+    <Content Include="Img\logo\apple-touch-icon.png" />
+    <Content Include="Img\logo\favicon-16x16.png" />
+    <Content Include="Img\logo\favicon-32x32.png" />
     <Content Include="Img\map-marker.png" />
     <Content Include="Img\member\1.jpg" />
     <Content Include="Img\member\2.jpg" />
@@ -226,6 +231,7 @@
     <Content Include="Scripts\bootstrap.js.map" />
     <Content Include="Scripts\bootstrap.min.js.map" />
     <Content Include="webfonts\themify.svg" />
+    <Content Include="Img\logo\site.webmanifest" />
     <None Include="Properties\PublishProfiles\Criptografia - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
