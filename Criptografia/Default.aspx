@@ -117,8 +117,10 @@
                             <i class="fas fa-user-secret fa-3x"></i>
                         </figure>
                         <h4>Super-Agente</h4>
-                        <p>Depois de clicares no botão "<b>Encriptar</b>" um dos nossos super-agentes irá encriptar a mensagem. Isto sem nunca 
-                            saber qual é o conteúdo da mesma, é claro 😜</p>
+                        <p>
+                            Depois de clicares no botão "<b>Encriptar</b>" um dos nossos super-agentes irá encriptar a mensagem. Isto sem nunca 
+                            saber qual é o conteúdo da mesma, é claro 😜
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 process">
@@ -396,17 +398,17 @@
                 <!-- Encrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
-                        <asp:TextBox ID="txtEncriptar" CssClass="col-7 text-center" placeholder="Texto a Encriptar" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="txtNrVoltasEnc" CssClass="col-4 px-4 text-center" TextMode="Number" placeholder="Número de Voltas" runat="server"></asp:TextBox>
-                        <asp:Button ID="btnEncriptar" ToolTip="Encriptar Frase" CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" runat="server" Text="Encriptar" OnClick="btnEncriptar_OnClick" />
+                        <asp:TextBox CssClass="col-7 text-center" ID="txtEncriptar" placeholder="Texto a Encriptar" required runat="server"></asp:TextBox>
+                        <asp:TextBox CssClass="col-4 px-4 text-center" ID="txtNrVoltasEnc" placeholder="Número de Voltas" required runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:Button CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" ID="btnEncriptar" OnClick="btnEncriptar_OnClick" runat="server" Text="Encriptar" ToolTip="Encriptar Frase" />
                     </div>
                 </div>
                 <!-- Decrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
-                        <asp:TextBox ID="txtDesencriptar" CssClass="w-100 text-center" Enabled="False" placeholder="Texto a Encriptado" runat="server"></asp:TextBox>
-                        <asp:TextBox ID="txtNrVoltasDecr" Visible="False" CssClass="col-4 px-4 text-center" TextMode="Number" placeholder="Número de Voltas" runat="server"></asp:TextBox>
-                        <asp:Button ID="btnDesencriptar" CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" runat="server" Text="Desencriptar" OnClick="btnDesencriptar_OnClick" />
+                        <asp:TextBox CssClass="col-7 text-center" Enabled="False"  ID="txtDesencriptar" placeholder="Texto a Desencriptar" runat="server" required></asp:TextBox>
+                        <asp:TextBox CssClass="col-4 px-4 text-center" Enabled="False"  ID="txtNrVoltasDecr" placeholder="Número de Voltas" runat="server" TextMode="Number" ToolTip="Só são aceites números" required></asp:TextBox>
+                        <asp:Button CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" ID="btnDesencriptar" OnClick="btnDesencriptar_OnClick" runat="server" Text="Desencriptar" />
                     </div>
                 </div>
             </div>

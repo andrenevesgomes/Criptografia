@@ -17,30 +17,54 @@ namespace Criptografia
 
         protected void btnEncriptar_OnClick(object sender, EventArgs e)
         {
-            /*
-             * TODO: UMA VERIFICAÇÃO PARA QUANDO OS CAMPOS VEM VAZIOS;
-             * APLICAR NA PARTE PARA DESENCRIPTAR;
-             */
-            
-
             string encoded = Encriptar.ScytaleEncode(txtEncriptar.Text, Convert.ToInt32(txtNrVoltasEnc.Text));
 
-            txtEncriptar.Text = "";//para limpar a texbox e assim o user conseguir perceber que está a acontecer algo
             txtDesencriptar.Text = encoded;
-            txtNrVoltasEnc.Visible = false;
-            txtNrVoltasDecr.Visible = true;
+            txtNrVoltasDecr.Text = txtNrVoltasEnc.Text;
+
+
+            #region  PARA LIMPAR O CONTEUDO DAS TEXTBOXES
+
+            txtEncriptar.Text = "";
+            txtNrVoltasEnc.Text = "";
+
+            #endregion
+
+
+            #region PARA HABILITAR AS TEXTBOXES PARA DESENCRIPTAR & DESABILITAR AS TXT'S ENCRIPTAR
+
+            txtDesencriptar.Enabled = true;
+            txtNrVoltasDecr.Enabled = true;
+            txtEncriptar.Enabled = false;
+            txtNrVoltasEnc.Enabled = false;
+
+            #endregion
 
         }
 
         protected void btnDesencriptar_OnClick(object sender, EventArgs e)
         {
             string decoded = Encriptar.ScytaleDecode(txtDesencriptar.Text, Convert.ToInt32(txtNrVoltasDecr.Text));
-
-            txtDesencriptar.Text = ""; //para limpar a texbox e assim o user conseguir perceber que está a acontecer algo
+            
             txtEncriptar.Text = decoded;
-            txtNrVoltasEnc.Visible = true;
-            txtNrVoltasDecr.Visible = false;
 
+
+            #region  PARA LIMPAR O CONTEUDO DAS TEXTBOXES
+
+            txtDesencriptar.Text = "";
+            txtNrVoltasDecr.Text = "";
+
+            #endregion
+
+
+            #region PARA HABILITAR AS TEXTBOXES PARA ENCRIPTAR & DESABILITAR AS TXT'S DESENCRIPTAR 
+
+            txtDesencriptar.Enabled = false;
+            txtNrVoltasDecr.Enabled = false;
+            txtEncriptar.Enabled = true;
+            txtNrVoltasEnc.Enabled = true;
+
+            #endregion
 
         }
     }
