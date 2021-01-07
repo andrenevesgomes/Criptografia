@@ -398,16 +398,16 @@
                 <!-- Encrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
-                        <asp:TextBox CssClass="col-7 text-center" ID="txtEncriptar" placeholder="Texto a Encriptar" required runat="server"></asp:TextBox>
-                        <asp:TextBox CssClass="col-4 px-4 text-center" ID="txtNrVoltasEnc" placeholder="Número de Voltas" required runat="server" TextMode="Number"></asp:TextBox>
+                        <asp:TextBox onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)" CssClass="col-7 text-center" ID="txtEncriptar" placeholder="Texto a Encriptar" required runat="server"></asp:TextBox>
+                        <asp:TextBox onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)" CssClass="col-4 px-4 text-center" ID="txtNrVoltasEnc" placeholder="Número de Voltas" required runat="server" TextMode="Number"></asp:TextBox>
                         <asp:Button CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" ID="btnEncriptar" OnClick="btnEncriptar_OnClick" runat="server" Text="Encriptar" ToolTip="Encriptar Frase" />
                     </div>
                 </div>
                 <!-- Decrypt -->
                 <div class="col-md-6">
                     <div class="hero-subscribe-from">
-                        <asp:TextBox CssClass="col-7 text-center" Enabled="False"  ID="txtDesencriptar" placeholder="Texto a Desencriptar" runat="server" required></asp:TextBox>
-                        <asp:TextBox CssClass="col-4 px-4 text-center" Enabled="False"  ID="txtNrVoltasDecr" placeholder="Número de Voltas" runat="server" TextMode="Number" ToolTip="Só são aceites números" required></asp:TextBox>
+                        <asp:TextBox onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)" CssClass="col-7 text-center" Enabled="False" ID="txtDesencriptar" placeholder="Texto a Desencriptar" runat="server" required></asp:TextBox>
+                        <asp:TextBox onkeypress="return console.log(event.keyCode || event.which), (event.keyCode != 32 && event.which != 32)" CssClass="col-4 px-4 text-center" Enabled="False" ID="txtNrVoltasDecr" placeholder="Número de Voltas" runat="server" TextMode="Number" ToolTip="Só são aceites números" required></asp:TextBox>
                         <asp:Button CssClass="site-btn sb-gradients col-12 col-md-6 mx-auto" ID="btnDesencriptar" OnClick="btnDesencriptar_OnClick" runat="server" Text="Desencriptar" />
                     </div>
                 </div>

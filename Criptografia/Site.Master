@@ -34,7 +34,6 @@
 <body>
 
     <form runat="server">
-        <asp:ScriptManager ID="ScriptManager" runat="server"></asp:ScriptManager>
 
         <!-- Page Preloder -->
         <div id="preloder">
@@ -62,12 +61,9 @@
         </header>
         <!-- Header section end -->
         <div class="container-fluid p-0 body-content">
-            <asp:UpdatePanel runat="server" ID="updatePanelTop" UpdateMode="Conditional" ChildrenAsTriggers="True">
-                <ContentTemplate>
+            
                     <asp:ContentPlaceHolder ID="MainContent" runat="server">
                     </asp:ContentPlaceHolder>
-                </ContentTemplate>
-            </asp:UpdatePanel>
             <!-- Footer section -->
             <footer class="">
                 <div class="container">
