@@ -112,6 +112,8 @@ Para decifrar a mensagem, o processo seria o mesmo, mas ao contrário: partimos 
 Seguindo a mesma metodologia, a matriz é preenchida, transposta e o texto recuperado longitudinalmente, respeitando os espaços.
 
 # Pseudo-Código
+
+**_CÓDIGO ENCRIPTAR_** 🔒
 ```
 /// <summary>
 /// Esta função irá permitir a encriptação de uma frase que o user insira.
@@ -138,7 +140,9 @@ public static string ScytaleEncode(string plainText, int numOfRows) {
   }
   return encodedText;
 }
-
+```
+**_CÓDIGO DESENCRIPTAR_** 🔓
+```
 /// <summary>
 /// Esta função irá permitir a desencriptação de uma frase que o user insira.
 /// </summary>
