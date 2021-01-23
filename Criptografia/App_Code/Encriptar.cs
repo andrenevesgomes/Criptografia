@@ -25,7 +25,7 @@ namespace Criptografia.App_Code
             {
                 while (plainText.Length % numOfRows != 0)
                 {
-                    plainText += "";
+                    plainText += " ";
                 }
 
                 int numOfCols = plainText.Length / numOfRows;
