@@ -37,15 +37,16 @@ namespace Criptografia
             txtNrVoltasDecr.Enabled = true;
             txtEncriptar.Enabled = false;
             txtNrVoltasEnc.Enabled = false;
+            btnEncriptar.Enabled = false;
+            btnDesencriptar.Enabled = true;
 
             #endregion
-
         }
 
         protected void btnDesencriptar_OnClick(object sender, EventArgs e)
         {
             string decoded = Encriptar.ScytaleDecode(txtDesencriptar.Text, Convert.ToInt32(txtNrVoltasDecr.Text));
-            
+
             txtEncriptar.Text = decoded;
 
 
@@ -63,6 +64,8 @@ namespace Criptografia
             txtNrVoltasDecr.Enabled = false;
             txtEncriptar.Enabled = true;
             txtNrVoltasEnc.Enabled = true;
+            btnEncriptar.Enabled = true;
+            btnDesencriptar.Enabled = false;
 
             #endregion
 
