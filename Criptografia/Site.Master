@@ -126,7 +126,7 @@
             </footer>
         </div>
 
-        <script type="text/ecmascript" src='<%= ResolveUrl("/Scripts/jquery-3.5.1.min.js") %>'></script>
+        <script type="text/ecmascript" src='<%= ResolveUrl("/Scripts/jquery-3.5.1.slim.min.js") %>'></script>
         <script type="text/javascript" src="/Scripts/umd/popper.min.js"></script>
         <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="/Scripts/owl.carousel.min.js"></script>
