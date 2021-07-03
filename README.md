@@ -206,7 +206,6 @@ Everything else is copyrighted with © all rights reserved.
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/rubenpatriciosantos/"><img src="https://user-images.githubusercontent.com/48434290/101286267-6402b380-37e1-11eb-897e-b9b649a23778.jpg" width="100px;" alt=""/><br/><sub><b>Rúben Santos</b></sub></a><br /></td>
     <td align="center"><a href="https://www.linkedin.com/in/mauricioalvesoliveira/"><img src="https://user-images.githubusercontent.com/48434290/101286132-bd1e1780-37e0-11eb-8341-9942e1b44927.png" width="100px;" alt=""/><br/><sub><b>King DarkBowserGX (aka Maurício Oliveira)</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/gBatista98"><img src="https://user-images.githubusercontent.com/48434290/96355556-ac073300-10da-11eb-9893-b4c02b03f1cc.png" width="100px;" alt=""/><br/><sub><b>Gonçalo Batista</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/andrenevesgomes"><img src="https://user-images.githubusercontent.com/48434290/95869306-23e3ff00-0d63-11eb-89ea-fa1e8a6b95ae.jpg" width="100px;" alt=""/><br /><sub><b>André Gomes</b></sub></a></br><a href="https://andrenevesgomes.github.io/portfolio/" title="Portfólio">:book:</a></td></tr>
 </table>
 
