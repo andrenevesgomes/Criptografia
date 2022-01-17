@@ -13,7 +13,7 @@
 <br/>
 <p align="center">
   <a href="https://www.istec.pt/" target=“_blank”>
-    <img width="35%" src="https://user-images.githubusercontent.com/48434290/101285394-df159b00-37dc-11eb-8158-9db40a2627ba.jpg" alt="Logo LPCC">
+    <img width="35%" src="https://github.com/andrenevesgomes/Criptografia/blob/master/Criptografia/Img/logo.png" alt="Logo Projecto">
   </a>
 
   <h3 align="center">Criptografia</h3>
